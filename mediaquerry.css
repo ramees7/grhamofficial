@@ -1,0 +1,167 @@
+@media  (max-width: 900px){
+    .nav-item{
+        margin: 0;
+    }
+    .logo-img-nav{
+        height: 80px; 
+        width: 100px ;
+    }
+    .navbar{
+        padding: 0 3%;
+    }
+    .home-img{
+        height: 50vh;
+    }
+    .featured-product-img{
+        height: 300px;
+    }
+    .whatwedo-img-overlay-text h1{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: 700;
+    }
+    .whatwedo-img-overlay-text h3{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: bolder;
+        margin: 5px;
+        font-size: larger;
+        
+    }
+    .since{
+        margin: 15px 13px ;
+    }
+    .footer-img{
+        height: 301px;
+    }
+    .footer-logo-img{
+        height: 60px; 
+        width: 150px;
+    }
+    .footer-social{
+        padding: 5% 10% 3% 10%;
+    }
+    .footer-social{
+        padding: 3% 4%;
+    }
+    .social-media-icons i{
+        font-size: large;
+        margin-top: 0;
+    }
+    .footer-social h2{
+        font-size: 20px;
+    }
+    .footer-social p{
+        font-size: 12px;
+    }
+    .quick-link a{
+        font-size: 14px;
+    }
+    .contact-info-content{
+        padding: 0 0 8px 5px;
+    }
+    .contact-info-content a{
+        font-size: 9px;
+    }
+    .Copyright-div h6{
+        margin:0;  
+        font-size: 13px;
+    }
+    .Copyright-div {
+        height: 45px; 
+    }
+    /* .Copyright-div p{
+        margin-bottom: 3px;
+        font-size: 15px;
+    } */
+    .our-team-grp-img{
+        padding: 0 5%;
+    }
+    .our-socialmedia {
+        margin: 34% 10%;
+    }
+    .contact-page-inner {
+        width: 355px;
+        height: 420px;
+        margin: 20px 2px;
+    }
+    
+
+    /* -----------------------------------------500px-------------------------------------------- */
+}
+@media (max-width:500px){
+    .whatwedo-img-overlay-text h1{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: bolder;
+    }
+    .whatwedo-img-overlay-text h3{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: bolder;
+        margin: 0;
+        font-size: larger;
+        
+    }
+    .featured-product-img{
+        height: 200px;
+    }
+    .since{
+        margin: 15px 10px ;
+    }
+
+    .footer-logo-img{
+        height: 45px; 
+        width: 140px;
+    }
+    .footer-img{
+        height: 250px;
+    }
+    .footer-social{
+        padding: 5% 10% 3% 10%;
+    }
+    .footer-social{
+        padding: 8% 5px;
+    }
+    .footer-social h2{
+        font-size: 17px;
+    }
+    .footer-social p{
+        font-size: 6px;
+    }
+    .social-media-icons i{
+        font-size:small;
+        margin-top: 0;
+    }
+    .quick-link a{
+        font-size: 14px;
+    }
+    .contact-info-content{
+        padding: 0 0 8px 5px;
+    }
+    .contact-info-content a{
+        font-size: 7px;
+    }
+    .Copyright-div h6{
+        margin:0;  
+        font-size: 10px;
+    }
+    .Copyright-div {
+        height: 30px; 
+    }
+    /* .Copyright-div p{
+        margin-bottom: 3px;
+        color: #ffffff;
+        font-size: 15px;
+    } */
+    .our-team-grp-img{
+        padding: 0 5%;
+    }
+    .our-socialmedia {
+        margin: 32% 8%;
+    }
+    .contact-page{
+        margin:5% 10% 10% 10%;
+    }
+    .contact-page-inner {
+        width: 355px;
+        height: 410px;
+        margin: 0px 2px;
+    }
+} 

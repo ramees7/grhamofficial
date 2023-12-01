@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+}
+/* -------------------navbar------------------- */
+.navbar{
+    padding: 0 6%;
+    background-color: #fff;
+}
+.logo-img-nav{
+    height: 100px; 
+    width: 130px ;
+    padding: 6px;
+}
+.nav-item{
+    margin: 0 10px ;
+}
+.navbar-collapse{
+    justify-content: end;
+}
+.nav-link{
+    color: #000000;
+    font-weight: 600;
+
+    display: inline-block;
+    padding: 5px 20px;
+    position: relative;
+    
+}
+.nav-link:hover{
+    color: #000000;
+}
+.nav-link::after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 50%;
+    position: absolute;
+    background: #000000;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.nav-link:hover::after{
+    width: 87%; 
+    left: 6px; 
+}
+/* -------------------navbar-------------------- */
+/* --------------------home-img------------------------- */
+.home-img{
+    height: 80vh;
+    width: 100%;
+}
+.home-img-overlay{
+    position: absolute; 
+}
+.home-img-overlay p{
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 3px;
+    color: #fff;
+}
+.home-img-overlay h1{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 50px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    color: #fff;
+}
+.home-img-overlay-btn-1{
+    border-radius: 0;
+    width: 50%;
+    margin: 2% 5% 2% 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    height: 50px;
+}
+.home-img-overlay-btn-2{
+    border-radius: 0;
+    width: 45%;
+    margin: 2% 0 2% 5%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    height: 50px;
+}
+/* ---------------------------home-img----------------------- */
+.about-us{
+    margin: 5% 15%;
+}
+.about-us h1{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.whatsapp-fixed{
+    width: 60px;
+    position: fixed;
+    float: right;
+    right: 0;
+    z-index: 1;
+    bottom: 100px;
+    transition: 0.1s ease-in-out;
+}
+.whatsapp-fixed:hover{
+    transform: scale(1.2);
+}
+/* ------------------featured----------------------- */
+.featured-product{
+    margin: 5% 10%;
+    --bs-gutter-x: 10px;
+    --bs-gutter-y: 10px;
+}
+.featured-product h1{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.featured-product-img{
+    width: 100%;
+    height: 400px;
+    transition: 0.1s all ease-in-out;
+}
+.featured-product-img:hover{
+    opacity: 50%;
+    transform: scale(0.95);
+}
+/* --------------featured------------------------- */
+/* ------------------since----------------- */
+.since-main-div{
+    margin: 5% 10% 5% 10%;
+}
+.since{
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    /* margin: 15px 5px 15px 40px; */
+    /* margin: 2% 6%; */
+    margin: 15px 77px ;
+    text-align: center;
+    background-color: #fff;
+}
+.since:hover{
+    background-color: #000000;
+    color: #fff;
+    transform: scale(1.1);
+}
+.since-text{
+    padding-top: 50px;
+    font-weight:bold;
+}
+/* ------------------since----------------- */
+/* ----------------whatwedo--------------------- */
+.whatwedo-img-overlay-text{
+    position: absolute;
+}
+.whatwedo-img{
+    width: 100%; 
+    height: 100%; 
+    opacity: 75%;
+}
+.whatwedo-img-overlay-text h1{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+}
+.whatwedo-img-overlay-text h3{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    margin-top: 10px;
+    /* color: #fff; */
+}
+/* ----------------------whatwedo---------------- */
+/* -----------------footer-contact------------------ */
+.footer-img{
+    opacity: 20%;
+    width: 100%;
+    height: 360px;
+}
+.footer-logo-img{
+    height: 90px; 
+    width: 270px;
+}
+.footer-social{
+    padding: 5% 10% 0 10%;
+}
+.social-media-icons i{
+    font-size: xx-large;
+    margin-top: 10px;
+}
+.quick-link li{
+    list-style-type:circle;
+    padding-top: 8px;
+}
+.footer-conatct-img-overlay{
+    position: absolute; 
+}
+.quick-link a{
+    text-decoration: none;
+    color: #fff;
+}
+.contact-info-content a{
+    text-decoration: none;
+}
+.contact-info-content {
+    padding-left: 30px;
+}
+.Copyright-div {
+    background-color: #000000;
+    opacity: 80%; 
+    height: 55px; 
+}
+.Copyright-div h6{
+    margin:6px 0; 
+    color: #efefef;  
+}
+/* .Copyright-div p{
+    margin-bottom: 3px;
+    color: #ffffff;
+    font-size: 15px;
+} */
+/* ---------------footer-contact----------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------Extra-pages------------------------------------------ */
+
+/* -----------------------------project page------------------------ */
+.our-projects{
+    margin: 5% 10%;
+}
+.our-projects h1{
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-bottom: 30px;
+}
+.our-projects h5{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-top: 5px;
+}
+.our-projects-content{
+    width: 320px; 
+    height: 350px; 
+    margin: 20px 2px; 
+    text-align: center;
+}
+.our-projects-content img{
+    height: 300px;
+}
+.our-projects h6{
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1px;
+}
+/* -----------------------------project page------------------------ */
+/* -----------------------------team page------------------------ */
+.our-team{
+    margin: 5% 10%;
+}
+.our-team-grp-img{
+    margin: 5% 10%; 
+    padding: 0 15%;
+}
+.our-team-details{
+    width: 300px; 
+    height: 500px; 
+    margin: 20px 2px; 
+    text-align: center;
+}
+.our-team-details-inner{
+    height: 330px;
+}
+.our-team-details h5{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+.our-team-details h6{
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1px;
+}
+.our-team-details a{
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #999999;
+}
+/* -----------------------------team page------------------------ */
+/* -----------------------------social page------------------------ */
+.our-socialmedia{
+    margin: 5% 10%;
+}
+.our-socialmedia h1{
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+.our-socialmedia p{
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+/* -----------------------------social page------------------------ */
+/* -----------------------------contact page------------------------ */
+.contact-page{
+    margin: 5% 10%;
+}
+.contact-page-inner{
+    width: 600px; 
+    height: 500px; 
+    margin: 20px 2px; 
+}
+.contact-page h1{
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1px;
+}
+.contact-page h5,h6{
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1px;
+}
+.contact-page a{
+    text-decoration: none;
+    color: #999999;
+}
+/* -----------------------------contact page------------------------ */
