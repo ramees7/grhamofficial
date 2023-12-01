@@ -88,6 +88,9 @@
     /* -----------------------------------------500px-------------------------------------------- */
 }
 @media (max-width:500px){
+    body{
+        overflow-x: hidden;
+    }
     .whatwedo-img-overlay-text h1{
         font-family: 'PT Sans Narrow', sans-serif;
         font-weight: bolder;
@@ -111,26 +114,26 @@
         width: 140px;
     }
     .footer-img{
-        height: 250px;
+        height: 200px;
     }
     .footer-social{
         padding: 5% 10% 3% 10%;
     }
     .footer-social{
-        padding: 8% 5px;
+        padding: 8% 2% 0 12%;
     }
     .footer-social h2{
-        font-size: 17px;
+        font-size: 10px;
     }
     .footer-social p{
         font-size: 6px;
     }
     .social-media-icons i{
-        font-size:small;
+        font-size:x-small;
         margin-top: 0;
     }
     .quick-link a{
-        font-size: 14px;
+        font-size: 8px;
     }
     .contact-info-content{
         padding: 0 0 8px 5px;
@@ -163,5 +166,8 @@
         width: 355px;
         height: 410px;
         margin: 0px 2px;
+    }
+    .quick-link li {
+        padding-top: 0px;
     }
 } 
